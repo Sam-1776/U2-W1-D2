@@ -213,9 +213,13 @@ h1 {
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
 }
+span{
+  position: relative;
+  display: inline-block;
+}
 .underscore {
   position: absolute;
-  top: 120px;
+  top: 25px;
   left: 0;
   filter: opacity(0.5);
 }
@@ -374,7 +378,7 @@ footer a {
     z-index: 99;
   }
   .underscore {
-    top: 125px;
+    top: 30px;
     left: 0;
   }
   .underscore > svg {
@@ -393,7 +397,7 @@ footer a {
   }
   .underscore {
     position: absolute;
-    top: 125px;
+    top: 35px;
     left: 0;
     filter: opacity(0.5);
   }
@@ -448,7 +452,7 @@ footer a {
   .underscore {
     position: absolute;
     top: 30px;
-    left: 460px;
+    left: 0;
     filter: opacity(0.5);
   }
   .underscore > svg {
